@@ -1,3 +1,5 @@
+import TestWorld from "@/virtual/worlds/test-world/test-world"
+
 export default function Test() {
-  return <div>Test</div>
+  return <TestWorld />
 }

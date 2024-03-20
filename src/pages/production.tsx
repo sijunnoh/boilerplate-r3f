@@ -1,4 +1,6 @@
+import ProductionWorld from "@/virtual/worlds/production-world/production-world"
+
 const Production = () => {
-  return <div>Production</div>
+  return <ProductionWorld />
 }
 export default Production

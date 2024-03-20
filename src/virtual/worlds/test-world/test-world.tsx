@@ -1,0 +1,26 @@
+import { Canvas } from "@react-three/fiber"
+
+import CameraAndControl from "./camera-and-control"
+import Environment from "./environment"
+
+const TestWorld = () => {
+  return (
+    <Canvas
+      key={"production-world"}
+      gl={{ antialias: true, logarithmicDepthBuffer: true }}
+      camera={{
+        fov: 20,
+        near: 0.1,
+        far: 20000,
+      }}
+    >
+      <Environment />
+      <CameraAndControl />
+      <mesh>
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color="hotpink" />
+      </mesh>
+    </Canvas>
+  )
+}
+export default TestWorld

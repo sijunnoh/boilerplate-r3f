@@ -1,4 +1,6 @@
+import DevelopmentWorld from "@/virtual/worlds/development-world/development-world"
+
 const Development = () => {
-  return <div>Development</div>
+  return <DevelopmentWorld />
 }
 export default Development
