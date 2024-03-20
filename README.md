@@ -7,6 +7,9 @@
 - production-world, development-world, test-world 세분화 예시로 구성
 
 - production-world에 three.js sky+ocean 적용
+  
+<img width="2560" alt="image" src="https://github.com/sijunnoh/boilerplate-r3f/assets/58540929/c18b8286-5ab9-49fc-a858-a101fcfadc0b">
+
 
 ## 실행 방법
 
