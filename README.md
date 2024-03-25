@@ -13,7 +13,13 @@
 
 ## 실행 방법
 
-```
-yarn dev 명령어 실행
-http://localhost:5173/ 접속
-```
+1. module 설치 (Node V20.11.0)
+   ```
+   yarn
+   ```
+2. test 서버 실행
+   ```
+   yarn dev
+   ```
+3. http://localhost:5173/ 접속
+
